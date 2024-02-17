@@ -1,0 +1,9 @@
+<p>add works!</p>
+<h1 style="color: blue;">Student Registration Form</h1>
+<form [formGroup]="student" (ngSubmit)=" onSubmit()">
+<input type="text" formControlName="id" placeholder="Enter Id"> 
+<input type="text" formControlName="name" placeholder="Enter Name"> 
+<input type="text" formControlName="username" placeholder="Enter Username"> 
+<input type="text" formControlName="password" placeholder="Enter Password"> 
+<button type="submit">Submit</button>
+</form>       
